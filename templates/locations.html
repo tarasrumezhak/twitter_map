@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_e27bf9036f9544a092a54e694ef52ac9 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_e27bf9036f9544a092a54e694ef52ac9" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_e27bf9036f9544a092a54e694ef52ac9 = L.map(
+        'map_e27bf9036f9544a092a54e694ef52ac9', {
+        center: [0, 0],
+        zoom: 1,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_c97411b9c19c43569d9f57f559cf5e29 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_e27bf9036f9544a092a54e694ef52ac9);
+    
+        var marker_588184a94cf143bfa614df105ca16270 = L.marker(
+            [34.05349000000007, -118.24531999999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_e27bf9036f9544a092a54e694ef52ac9);
+        
+    
+            var popup_9a20d5b1dbdb46f999010d585e275311 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c72747e4b184497d868aa186c17f31fa = $(`<div id="html_c72747e4b184497d868aa186c17f31fa" style="width: 100.0%; height: 100.0%;">tydollasign</div>`)[0];
+                popup_9a20d5b1dbdb46f999010d585e275311.setContent(html_c72747e4b184497d868aa186c17f31fa);
+            
+
+            marker_588184a94cf143bfa614df105ca16270.bindPopup(popup_9a20d5b1dbdb46f999010d585e275311)
+            ;
+
+            
+        
+    
+        var marker_72cb19dc98f14a15b31c584e643496da = L.marker(
+            [40.62238000000008, -87.48970999999995],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_e27bf9036f9544a092a54e694ef52ac9);
+        
+    
+            var popup_0152f883c25b49a493bfc5af29b1ee1b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_37aa8a5f687049b1b42d70a7efb239be = $(`<div id="html_37aa8a5f687049b1b42d70a7efb239be" style="width: 100.0%; height: 100.0%;">Acehood</div>`)[0];
+                popup_0152f883c25b49a493bfc5af29b1ee1b.setContent(html_37aa8a5f687049b1b42d70a7efb239be);
+            
+
+            marker_72cb19dc98f14a15b31c584e643496da.bindPopup(popup_0152f883c25b49a493bfc5af29b1ee1b)
+            ;
+
+            
+        
+    
+        var marker_da9bc14414d54307a084b5863412e332 = L.marker(
+            [40.05893003447939, -82.93943992339427],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_e27bf9036f9544a092a54e694ef52ac9);
+        
+    
+            var popup_dac278e81e3b4648b3dac6b0169d1a3a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d979abe2c1584777bb96c99a68060df4 = $(`<div id="html_d979abe2c1584777bb96c99a68060df4" style="width: 100.0%; height: 100.0%;">MetroBoomin</div>`)[0];
+                popup_dac278e81e3b4648b3dac6b0169d1a3a.setContent(html_d979abe2c1584777bb96c99a68060df4);
+            
+
+            marker_da9bc14414d54307a084b5863412e332.bindPopup(popup_dac278e81e3b4648b3dac6b0169d1a3a)
+            ;
+
+            
+        
+    
+        var marker_ef50f843cefa4857b1a9f8b195017fcf = L.marker(
+            [-22.41432999999995, -42.968219999999974],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_e27bf9036f9544a092a54e694ef52ac9);
+        
+    
+            var popup_775f1a36ab804399ba549194a1405ca8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0cc1987e88a64a119ee077ce8702131a = $(`<div id="html_0cc1987e88a64a119ee077ce8702131a" style="width: 100.0%; height: 100.0%;">kendricklamar</div>`)[0];
+                popup_775f1a36ab804399ba549194a1405ca8.setContent(html_0cc1987e88a64a119ee077ce8702131a);
+            
+
+            marker_ef50f843cefa4857b1a9f8b195017fcf.bindPopup(popup_775f1a36ab804399ba549194a1405ca8)
+            ;
+
+            
+        
+    
+        var marker_ca5ba0bfd2d8445ba0ad7a4002ac92d5 = L.marker(
+            [51.68917000000005, 3.7333300000000236],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_e27bf9036f9544a092a54e694ef52ac9);
+        
+    
+            var popup_3193a9a727ad4be38c0a2c4c6a082cdd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_13a8e13650e742d88c87405800c8ca13 = $(`<div id="html_13a8e13650e742d88c87405800c8ca13" style="width: 100.0%; height: 100.0%;">wizkhalifa</div>`)[0];
+                popup_3193a9a727ad4be38c0a2c4c6a082cdd.setContent(html_13a8e13650e742d88c87405800c8ca13);
+            
+
+            marker_ca5ba0bfd2d8445ba0ad7a4002ac92d5.bindPopup(popup_3193a9a727ad4be38c0a2c4c6a082cdd)
+            ;
+
+            
+        
+    
+        var marker_faeb3cc351b04181a07a411f8306090b = L.marker(
+            [33.74013000000008, -84.34487999999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_e27bf9036f9544a092a54e694ef52ac9);
+        
+    
+            var popup_d02566c1052d48a592b8cc10575dbce2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f547e388f1ed4272be22539d80addce8 = $(`<div id="html_f547e388f1ed4272be22539d80addce8" style="width: 100.0%; height: 100.0%;">gucci1017</div>`)[0];
+                popup_d02566c1052d48a592b8cc10575dbce2.setContent(html_f547e388f1ed4272be22539d80addce8);
+            
+
+            marker_faeb3cc351b04181a07a411f8306090b.bindPopup(popup_d02566c1052d48a592b8cc10575dbce2)
+            ;
+
+            
+        
+    
+        var marker_e5547905821a42a6ad822c752aa5c7f3 = L.marker(
+            [33.74831000000006, -84.39110999999997],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_e27bf9036f9544a092a54e694ef52ac9);
+        
+    
+            var popup_eea16caefc3c45a5b9fe0fc2901245bc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d6198c08514d48cb88d4e8fc1e85c81d = $(`<div id="html_d6198c08514d48cb88d4e8fc1e85c81d" style="width: 100.0%; height: 100.0%;">21savage</div>`)[0];
+                popup_eea16caefc3c45a5b9fe0fc2901245bc.setContent(html_d6198c08514d48cb88d4e8fc1e85c81d);
+            
+
+            marker_e5547905821a42a6ad822c752aa5c7f3.bindPopup(popup_eea16caefc3c45a5b9fe0fc2901245bc)
+            ;
+
+            
+        
+    
+        var marker_dd2758db3f2b41be9edc4b5c675bdd22 = L.marker(
+            [33.74831000000006, -84.39110999999997],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_e27bf9036f9544a092a54e694ef52ac9);
+        
+    
+            var popup_1716560fdadb4a9e9ae76d423100a23a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5997773fe7ba45d0802873bfa0a3b816 = $(`<div id="html_5997773fe7ba45d0802873bfa0a3b816" style="width: 100.0%; height: 100.0%;">Migos</div>`)[0];
+                popup_1716560fdadb4a9e9ae76d423100a23a.setContent(html_5997773fe7ba45d0802873bfa0a3b816);
+            
+
+            marker_dd2758db3f2b41be9edc4b5c675bdd22.bindPopup(popup_1716560fdadb4a9e9ae76d423100a23a)
+            ;
+
+            
+        
+    
+        var marker_802a728179a74c96bac6825a4f3a24d6 = L.marker(
+            [34.05349000000007, -118.24531999999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_e27bf9036f9544a092a54e694ef52ac9);
+        
+    
+            var popup_4faf0ea3552b4eb089a27ddffa60f9c5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_80b22d4ff98840d995618c7f1ff70626 = $(`<div id="html_80b22d4ff98840d995618c7f1ff70626" style="width: 100.0%; height: 100.0%;">tomhanks</div>`)[0];
+                popup_4faf0ea3552b4eb089a27ddffa60f9c5.setContent(html_80b22d4ff98840d995618c7f1ff70626);
+            
+
+            marker_802a728179a74c96bac6825a4f3a24d6.bindPopup(popup_4faf0ea3552b4eb089a27ddffa60f9c5)
+            ;
+
+            
+        
+    
+        var marker_3eb035f181664d34a585809bb7e981ad = L.marker(
+            [29.76058000000006, -95.36967999999996],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_e27bf9036f9544a092a54e694ef52ac9);
+        
+    
+            var popup_812d513cc5a7412ea330e98c30b93c63 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d4661ca0e1f14b40902298d7a1ec3872 = $(`<div id="html_d4661ca0e1f14b40902298d7a1ec3872" style="width: 100.0%; height: 100.0%;">CP3</div>`)[0];
+                popup_812d513cc5a7412ea330e98c30b93c63.setContent(html_d4661ca0e1f14b40902298d7a1ec3872);
+            
+
+            marker_3eb035f181664d34a585809bb7e981ad.bindPopup(popup_812d513cc5a7412ea330e98c30b93c63)
+            ;
+
+            
+        
+    
+        var marker_50bfaea513ab4d22a3140b58d4d634ac = L.marker(
+            [35.472030000000075, -97.52106999999995],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_e27bf9036f9544a092a54e694ef52ac9);
+        
+    
+            var popup_b609ce575c7342ef8d69265e17ae86d4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f36f684bc76f4f4fbe216bab41d85770 = $(`<div id="html_f36f684bc76f4f4fbe216bab41d85770" style="width: 100.0%; height: 100.0%;">russwest44</div>`)[0];
+                popup_b609ce575c7342ef8d69265e17ae86d4.setContent(html_f36f684bc76f4f4fbe216bab41d85770);
+            
+
+            marker_50bfaea513ab4d22a3140b58d4d634ac.bindPopup(popup_b609ce575c7342ef8d69265e17ae86d4)
+            ;
+
+            
+        
+    
+        var marker_90de2b2d9d4845a9adf9ac634f3bcb14 = L.marker(
+            [-18.97136999999998, 32.67181000000005],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_e27bf9036f9544a092a54e694ef52ac9);
+        
+    
+            var popup_8b93cbcfd30b46c18e732886fffab9d8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_85829502f7364594a776019b01d2f7a6 = $(`<div id="html_85829502f7364594a776019b01d2f7a6" style="width: 100.0%; height: 100.0%;">KDTrey5</div>`)[0];
+                popup_8b93cbcfd30b46c18e732886fffab9d8.setContent(html_85829502f7364594a776019b01d2f7a6);
+            
+
+            marker_90de2b2d9d4845a9adf9ac634f3bcb14.bindPopup(popup_8b93cbcfd30b46c18e732886fffab9d8)
+            ;
+
+            
+        
+    
+        var marker_83662dbe8776495fac464aff5f55ccc6 = L.marker(
+            [-38.96369999999996, -68.04211999999995],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_e27bf9036f9544a092a54e694ef52ac9);
+        
+    
+            var popup_cc00bd23202f4d8e879adfcb4a6de49d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c4a5840c584440dc902e24441b11f906 = $(`<div id="html_c4a5840c584440dc902e24441b11f906" style="width: 100.0%; height: 100.0%;">KingJames</div>`)[0];
+                popup_cc00bd23202f4d8e879adfcb4a6de49d.setContent(html_c4a5840c584440dc902e24441b11f906);
+            
+
+            marker_83662dbe8776495fac464aff5f55ccc6.bindPopup(popup_cc00bd23202f4d8e879adfcb4a6de49d)
+            ;
+
+            
+        
+    
+        var marker_35d222d69f7b45e0a93c78cee28ea0b7 = L.marker(
+            [39.39870315600007, -99.41461918999994],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_e27bf9036f9544a092a54e694ef52ac9);
+        
+    
+            var popup_38ea63a1948f447c840b91259582dd2a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a38cbb4484ab481783f21d641cd5728c = $(`<div id="html_a38cbb4484ab481783f21d641cd5728c" style="width: 100.0%; height: 100.0%;">NBATV</div>`)[0];
+                popup_38ea63a1948f447c840b91259582dd2a.setContent(html_a38cbb4484ab481783f21d641cd5728c);
+            
+
+            marker_35d222d69f7b45e0a93c78cee28ea0b7.bindPopup(popup_38ea63a1948f447c840b91259582dd2a)
+            ;
+
+            
+        
+</script>
