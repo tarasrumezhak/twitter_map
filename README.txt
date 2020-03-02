@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/MilanMilosev/pen/JdgRpB.
-
- Search input with morphing effect. 
+A web site to search the location of your twitter friends.
